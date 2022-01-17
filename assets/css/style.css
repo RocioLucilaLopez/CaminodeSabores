@@ -9,9 +9,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gotham", sans-serif;
   background: #0c0b09;
   color: #fff;
+ 
 }
 
 a {
@@ -48,8 +49,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #f26f52;
+  border-bottom-color: #f26f52;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -124,27 +125,23 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(242, 111, 82);
   transition: all 0.5s;
   z-index: 997;
+  font-size: 50px;
 }
 #header.header-scrolled {
   top: 0;
   background: #f270529e;
 }
-#header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-}
+
 #header .logo a {
   color: #fff;
 }
 #header .logo img {
-  max-height: 200px;
+  width: 10rem;
+  height: 10rem;
+  margin: 0.5rem;
 }
+
+
 
 /*--------------------------------------------------------------
 # Book a table button Menu
@@ -188,6 +185,10 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   align-items: center;
 }
+.navbar .order-last .order-lg-0 {
+font-size: large;
+
+}
 .navbar li {
   position: relative;
 }
@@ -199,7 +200,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 550;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -887,7 +889,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/gallery/gallery7.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1208,7 +1210,7 @@ section {
   background: #0c0b09;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
-  padding: 60px 0 30px 0;
+  padding: 0px;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -1238,6 +1240,7 @@ section {
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
+  align-items: center;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -1286,22 +1289,6 @@ section {
 #footer .footer-top .footer-links ul a:hover {
   color: #03a688;
 }
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #28251f;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  border: 1px solid #454035;
-}
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-  background: #28251f;
-  color: white;
-}
-
 
 #footer .copyright {
   text-align: center;
@@ -1314,3 +1301,28 @@ section {
   color: #fff;
 }
 
+
+.logoFooter {
+  size-adjust: 50%;
+}
+
+
+.row .footer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerContainer{
+  display: flex;
+  align-items: center;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top {
+  align-content: center;
+}
