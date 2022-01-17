@@ -1141,7 +1141,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #f26f52;
   border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1155,13 +1155,13 @@ section {
   color: white;
 }
 .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
-  color: #a49b89;
+  color: #ffffff;
 }
 .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
-  color: #a49b89;
+  color: #ffffff;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #cda45e;
+  border-color: #f26f52;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1170,7 +1170,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: #f26f52;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1178,7 +1178,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #f26f52;
+  background: #18d26e;
 }
 @-webkit-keyframes animate-loading {
   0% {
