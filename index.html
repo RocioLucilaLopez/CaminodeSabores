@@ -44,7 +44,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logoB.png" alt="logo" class="img-fluid "></a>
+      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logoB.png" alt="logo" class="img-fluid " data-aos="zoom-in" ></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -88,9 +88,9 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-6 order-1 order-lg-2 aboutContainer" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="assets/img/about.jpg" alt="">
+              <img src="assets/img/about.png" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -326,8 +326,8 @@
                     <p>
                      1. Fundimos la mantequilla en una cazuela, echamos la panceta y el ajo, y freímos hasta que el ajo se dore. <br>
                      2. Desechamos el ajo. Mientras tanto, cocemos la pasta con la que queramos acompañar la salsa, escurrimos y añadimos a la panceta.<br> 
-                     3. Retiramos la cazuela del fuego, agregamos el huevo, la mitad del Parmesano, la mitad del Pecorinoy una pizca de pimienta. <br>
-                     4. Mezclamos bien. Añadimos el reto del queso, volvemos a remover y servimos enseguida.
+                     3. Retiramos la cazuela del fuego, agregamos el huevo, la mitad del Parmesano, la mitad del Pecorino y una pizca de pimienta. <br>
+                     4. Mezclamos bien. Añadimos el resto del queso, volvemos a remover y servimos enseguida.
                     </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -345,8 +345,8 @@
                       1. Calentamos la mantequilla y el aceite de oliva en una cazuela pequeña. <br>
                       2. Echamos la cebolla, el apio, la zanahoria y la carne. <br>
                       3. Salpimentamos la mezcla al gusto. Mezclamos bien y cocemos a fuego lento durante unos minutos hasta que las hortalizas queden tiernas y la carne comience a dorarse. <br>
-                      4. Diluimos el tomate ocn un poco de agua y lo vertemos. <br>
-                      5. Tapamos la cazuela y dejamos cocer la salsa a fuego muy lento durante na hora y media, añadiendo un poco de agua caliente si vemos que queda seca. 
+                      4. Diluimos el tomate con un poco de agua y lo vertemos. <br>
+                      5. Tapamos la cazuela y dejamos cocer la salsa a fuego muy lento durante una hora y media, añadiendo un poco de agua caliente si vemos que queda seca. 
                     </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -403,7 +403,8 @@
                     El monto mínimo de compra mayorista es $5000.- 
                   </p>
                   <p>
-                    Te garantizamos productos de calidad 
+                    Te garantizamos productos de calidad <br>a precios <strong> INCREÍBLES</strong> <br>
+                    <br> <strong>Mientras los precios siguen subiendo<br>¡Nosotros los mantenemos!</strong>
                   </p>
                 </div>
               </div>
@@ -418,12 +419,15 @@
                   <h3>Zonas de envío</h3>
                   <hr>
                   <p class="fst-italic">
-                    Los envíos se realizan los días sábados desde las 10 AM. 
-                    Y son <strong>totalmente</strong> gratis
+                    Los envíos se realizan los días sábados desde las 10 AM. <br>
+                   ¡ Y son <strong>totalmente</strong> gratis !
                   </p>
+                  <br>
                   <p>
-                    Nuestras Zonas de envío: Palermo, Recoleta, Caballito, Flores, Belgrano, Nuñez, Balvanera
-                    Villa Crespo, Chacarita, Agronomía, Villa Ortúzar, Paternal, Parque Chaz.
+                    <strong>Zonas de envío CABA:</strong><br> Palermo, Recoleta, Caballito, Flores, Belgrano, Nuñez, Balvanera,
+                    Villa Crespo, Chacarita, Agronomía, Villa Ortúzar, Paternal, Parque Chaz, Saavedra, Villa Urquiza, Villa Pueyrredón, Villa Devoto, Villa Real, Versalles, Liniers, Mataderos.<br>
+                    <br>
+                    <strong>En Provincia: </strong><br> Caseros y Ramos Mejía.
                   </p>
                 </div>
               </div>
@@ -553,22 +557,22 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>camdesabores@gmail.com</p>
+                <p><a href="mailto:camdesabores@gmail.com">camdesabores@gmail.com</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Envianos un mensaje al</h4>
-                <p>+54 9 11 4445-7206</p>
+                <p><a href="https://walink.co/84b0c3">+54 9 11 4445-7206</a></p>
               </div>
 
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8 mt-5 mt-lg-0 ">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form name="formularioContacto" netlify>
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
@@ -582,13 +586,8 @@
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="8" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Su mensaje ha sido enviado. Gracias!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
+              </div>    
+              <div class="text-center"><button type="submit" class="sendButton">Enviar</button></div>
             </form>
 
           </div>
